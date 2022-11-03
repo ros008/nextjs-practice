@@ -1,9 +1,10 @@
-import NavBar from "../components/NavBar";
+import Head from "next/head";
+import Seo from "./Seo";
 
 export default function Potato() {
   return (
     <div>
-      <NavBar />
+      <Seo title="About" />
       <h1>About</h1>
     </div>
   );
