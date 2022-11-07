@@ -1,5 +1,4 @@
-import Head from "next/head";
-import Seo from "./Seo";
+import Seo from "../components/Seo";
 
 export default function Potato() {
   return (
